@@ -7,6 +7,8 @@
 ```go
 import "github.com/tmsmr/pithermal"
 
+...
+
 temp, err := pithermal.GetCpuTemp()
 if err != nil {
     panic(err)
